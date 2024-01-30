@@ -1,0 +1,9 @@
+main {
+    & header hgroup {
+        text-align: center;
+    }
+
+    & .flyer-body {
+        column-count: 2;
+    }
+}

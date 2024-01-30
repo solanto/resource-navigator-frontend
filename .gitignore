@@ -128,3 +128,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Local Netlify folder
+.netlify
+
+# netlify 11ty serveless
+# netlify/functions/serverless/**
+# !netlify/functions/serverless/index.js
+netlify
+
+# 11ty build
+_site
