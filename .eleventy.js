@@ -5,7 +5,7 @@ const lightningCSS = require("@11tyrocks/eleventy-plugin-lightningcss")
 module.exports = config => {
     config.addPlugin(EleventyServerlessBundlerPlugin, {
         name: "serverless",
-        functionsDir: "./netlify/functions/",
+        functionsDir: "netlify/functions/",
         copy: [
             "styles/",
             "node_modules/@11tyrocks/eleventy-plugin-lightningcss/.eleventy.js"
