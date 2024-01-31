@@ -1,10 +1,8 @@
+functions = { }
+
 [[redirects]]
 from = "/flyer"
 to = "/.netlify/functions/serverless"
 status = 200
 force = true
 _generated_by_eleventy_serverless = "serverless"
-
-[functions]
-# external_node_modules = ["@11tyrocks/eleventy-plugin-lightningcss"]
-# node_bundler = "esbuild"

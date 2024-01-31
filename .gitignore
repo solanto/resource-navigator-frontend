@@ -139,3 +139,6 @@ netlify
 
 # 11ty build
 _site
+
+# vercel
+.vercel

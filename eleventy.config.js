@@ -1,5 +1,5 @@
 const { EleventyServerlessBundlerPlugin } = require("@11ty/eleventy")
-const lightningCSS = require("@11tyrocks/eleventy-plugin-lightningcss")
+// const lightningCSS = require("@11tyrocks/eleventy-plugin-lightningcss")
 
 /** @param {import("@11ty/eleventy/src/UserConfig")} config */
 module.exports = config => {
@@ -12,5 +12,9 @@ module.exports = config => {
         ]
     })
 
-    config.addPlugin(lightningCSS)
+    config.setServerOptions({
+        port: 3000
+    })
+
+    // config.addPlugin(lightningCSS)
 }
