@@ -6,8 +6,10 @@ module.exports = config => {
     config.addPlugin(EleventyServerlessBundlerPlugin, {
         name: "serverless",
         functionsDir: "./netlify/functions/",
-        copy: ["styles/"],
-        copyEnabled: false
+        copy: [
+            "styles/",
+            "node_modules/@11tyrocks/eleventy-plugin-lightningcss/.eleventy.js"
+        ]
     })
 
     config.addPlugin(lightningCSS)
