@@ -7,4 +7,4 @@ _generated_by_eleventy_serverless = "serverless"
 
 [functions]
 # external_node_modules = ["@11tyrocks/eleventy-plugin-lightningcss"]
-node_bundler = "esbuild"
+# node_bundler = "esbuild"
